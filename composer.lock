@@ -1,0 +1,249 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "72f3708fa2bea1fcffdfd8bdb2447b26",
+    "packages": [
+        {
+            "name": "ghostff/php-text-to-image",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ghostff/php-add-text-to-image.git",
+                "reference": "67775e9f46cd5b6990f9f84f9c08baaa869bb975"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ghostff/php-add-text-to-image/zipball/67775e9f46cd5b6990f9f84f9c08baaa869bb975",
+                "reference": "67775e9f46cd5b6990f9f84f9c08baaa869bb975",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ghostff\\TextToImage\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ghostff",
+                    "email": "frankchris@hotmail.com"
+                }
+            ],
+            "description": "Add text to an existing or new image",
+            "support": {
+                "issues": "https://github.com/Ghostff/php-add-text-to-image/issues",
+                "source": "https://github.com/Ghostff/php-add-text-to-image/tree/v1.0.0"
+            },
+            "time": "2021-12-04T01:38:03+00:00"
+        },
+        {
+            "name": "melbahja/seo",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/melbahja/seo.git",
+                "reference": "22b0b3273bf9c8867cadf018e4daa3e426525929"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/melbahja/seo/zipball/22b0b3273bf9c8867cadf018e4daa3e426525929",
+                "reference": "22b0b3273bf9c8867cadf018e4daa3e426525929",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-xml": "*",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Melbahja\\Seo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mohamed ELbahja",
+                    "email": "mohamed@elbahja.me",
+                    "homepage": "https://elbahja.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple PHP library to help developers 🍻 do better on-page SEO optimization",
+            "keywords": [
+                "PHP7",
+                "meta tags",
+                "open graph",
+                "schema.org",
+                "search engine optimization",
+                "seo",
+                "sitemap index",
+                "sitemap.xml",
+                "sitemaps",
+                "twitter tags"
+            ],
+            "support": {
+                "issues": "https://github.com/melbahja/seo/issues",
+                "source": "https://github.com/melbahja/seo/tree/v2.1.1"
+            },
+            "time": "2022-09-11T11:16:07+00:00"
+        },
+        {
+            "name": "phpmailer/phpmailer",
+            "version": "v6.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "039de174cd9c17a8389754d3b877a2ed22743e18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/039de174cd9c17a8389754d3b877a2ed22743e18",
+                "reference": "039de174cd9c17a8389754d3b877a2ed22743e18",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-filter": "*",
+                "ext-hash": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+                "doctrine/annotations": "^1.2.6 || ^1.13.3",
+                "php-parallel-lint/php-console-highlighter": "^1.0.0",
+                "php-parallel-lint/php-parallel-lint": "^1.3.2",
+                "phpcompatibility/php-compatibility": "^9.3.5",
+                "roave/security-advisories": "dev-latest",
+                "squizlabs/php_codesniffer": "^3.7.2",
+                "yoast/phpunit-polyfills": "^1.0.4"
+            },
+            "suggest": {
+                "decomplexity/SendOauth2": "Adapter for using XOAUTH2 authentication",
+                "ext-mbstring": "Needed to send email in multibyte encoding charset or decode encoded addresses",
+                "ext-openssl": "Needed for secure SMTP sending and DKIM signing",
+                "greew/oauth2-azure-provider": "Needed for Microsoft Azure XOAUTH2 authentication",
+                "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+                "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+                "psr/log": "For optional PSR-3 debug logging",
+                "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)",
+                "thenetworg/oauth2-azure": "Needed for Microsoft XOAUTH2 authentication"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPMailer\\PHPMailer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-only"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus Bointon",
+                    "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
+                },
+                {
+                    "name": "Andy Prevost",
+                    "email": "codeworxtech@users.sourceforge.net"
+                },
+                {
+                    "name": "Brent R. Matzelle"
+                }
+            ],
+            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+            "support": {
+                "issues": "https://github.com/PHPMailer/PHPMailer/issues",
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.9.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Synchro",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-11-25T22:23:28+00:00"
+        },
+        {
+            "name": "sergeytsalkov/meekrodb",
+            "version": "v2.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SergeyTsalkov/meekrodb.git",
+                "reference": "08b683a274365983aaf033cf9c589dcbe5190028"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SergeyTsalkov/meekrodb/zipball/08b683a274365983aaf033cf9c589dcbe5190028",
+                "reference": "08b683a274365983aaf033cf9c589dcbe5190028",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "db.class.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sergey Tsalkov",
+                    "email": "stsalkov@gmail.com"
+                }
+            ],
+            "description": "The Simple PHP/MySQL Library",
+            "homepage": "http://www.meekro.com",
+            "keywords": [
+                "database",
+                "mysql",
+                "mysqli",
+                "pdo"
+            ],
+            "support": {
+                "email": "support@meekro.com",
+                "issues": "https://github.com/SergeyTsalkov/meekrodb/issues",
+                "source": "https://github.com/SergeyTsalkov/meekrodb/tree/v2.5.1"
+            },
+            "time": "2023-10-10T00:28:49+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

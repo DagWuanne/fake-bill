@@ -1,0 +1,8 @@
+{
+    "require": {
+        "sergeytsalkov/meekrodb": "^2.5",
+        "melbahja/seo": "^2.1",
+        "ghostff/php-text-to-image": "^1.0",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

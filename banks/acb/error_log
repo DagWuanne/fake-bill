@@ -1,0 +1,18 @@
+[10-Sep-2024 12:30:01 Asia/Ho_Chi_Minh] PHP Warning:  Use of undefined constant stkgui - assumed 'stkgui' (this will throw an Error in a future version of PHP) in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 71
+[10-Sep-2024 12:30:01 Asia/Ho_Chi_Minh] PHP Warning:  imagecolorallocate() expects exactly 4 parameters, 2 given in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 98
+[10-Sep-2024 12:30:01 Asia/Ho_Chi_Minh] PHP Warning:  imagecolorallocate() expects exactly 4 parameters, 2 given in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 99
+[10-Sep-2024 12:30:24 Asia/Ho_Chi_Minh] PHP Warning:  Use of undefined constant stkgui - assumed 'stkgui' (this will throw an Error in a future version of PHP) in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 71
+[10-Sep-2024 12:30:24 Asia/Ho_Chi_Minh] PHP Warning:  imagecolorallocate() expects exactly 4 parameters, 2 given in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 98
+[10-Sep-2024 12:30:24 Asia/Ho_Chi_Minh] PHP Warning:  imagecolorallocate() expects exactly 4 parameters, 2 given in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 99
+[10-Sep-2024 12:30:38 Asia/Ho_Chi_Minh] PHP Warning:  Use of undefined constant stkgui - assumed 'stkgui' (this will throw an Error in a future version of PHP) in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 71
+[10-Sep-2024 12:30:39 Asia/Ho_Chi_Minh] PHP Warning:  imagecolorallocate() expects exactly 4 parameters, 2 given in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 98
+[10-Sep-2024 12:30:39 Asia/Ho_Chi_Minh] PHP Warning:  imagecolorallocate() expects exactly 4 parameters, 2 given in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 99
+[10-Sep-2024 14:37:26 Asia/Ho_Chi_Minh] PHP Warning:  Use of undefined constant stkgui - assumed 'stkgui' (this will throw an Error in a future version of PHP) in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 71
+[10-Sep-2024 14:37:26 Asia/Ho_Chi_Minh] PHP Warning:  imagecolorallocate() expects exactly 4 parameters, 2 given in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 98
+[10-Sep-2024 14:37:26 Asia/Ho_Chi_Minh] PHP Warning:  imagecolorallocate() expects exactly 4 parameters, 2 given in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 99
+[10-Sep-2024 14:37:54 Asia/Ho_Chi_Minh] PHP Warning:  Use of undefined constant stkgui - assumed 'stkgui' (this will throw an Error in a future version of PHP) in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 71
+[10-Sep-2024 14:37:55 Asia/Ho_Chi_Minh] PHP Warning:  imagecolorallocate() expects exactly 4 parameters, 2 given in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 98
+[10-Sep-2024 14:37:55 Asia/Ho_Chi_Minh] PHP Warning:  imagecolorallocate() expects exactly 4 parameters, 2 given in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 99
+[10-Sep-2024 14:38:23 Asia/Ho_Chi_Minh] PHP Warning:  Use of undefined constant stkgui - assumed 'stkgui' (this will throw an Error in a future version of PHP) in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 71
+[10-Sep-2024 14:38:23 Asia/Ho_Chi_Minh] PHP Warning:  imagecolorallocate() expects exactly 4 parameters, 2 given in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 98
+[10-Sep-2024 14:38:23 Asia/Ho_Chi_Minh] PHP Warning:  imagecolorallocate() expects exactly 4 parameters, 2 given in /home/fakebil1/public_html/banks/acb/api_bdsd.php on line 99

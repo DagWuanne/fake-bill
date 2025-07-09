@@ -1,0 +1,80 @@
+RewriteEngine On
+
+RewriteRule ^register$ register.php [L]
+RewriteRule ^login$ auth.php [L]
+RewriteRule ^tao-bien-dong-so-du$ list-fake-bdsd.php [L]
+RewriteRule ^tao-so-du$ list-fake-so-du.php [L]
+RewriteRule ^tao-bill-chuyen-tien$ list-fake-bill.php [L]
+RewriteRule ^login$ register.php [L]
+
+RewriteRule ^fake-bill-mbbanknew fakebill.php?name=mbbanknew [L]
+RewriteRule ^fake-bill-binance$ fakebill.php?name=binance [L]
+RewriteRule ^fake-bill-bidv$ fakebill.php?name=bidv [L]
+RewriteRule ^fake-bill-vietcombank$ fakebill.php?name=vietcombank [L]
+RewriteRule ^fake-bill-mbbank$ fakebill.php?name=mbbank [L]
+RewriteRule ^fake-bill-techcombank$ fakebill.php?name=techcombank [L]
+RewriteRule ^fake-bill-techcombank_vip$ fakebill.php?name=techcombank_vip [L]
+RewriteRule ^fake-bill-vietinbank$ fakebill.php?name=vietinbank [L]
+RewriteRule ^fake-bill-momo$ fakebill.php?name=momo [L]
+RewriteRule ^fake-bill-acb$ fakebill.php?name=acb [L]
+RewriteRule ^fake-bill-vpbank$ fakebill.php?name=vpbank [L]
+RewriteRule ^fake-bill-tpbank$ fakebill.php?name=tpbank [L]
+RewriteRule ^fake-bill-agribank$ fakebill.php?name=agribank [L]
+RewriteRule ^fake-bill-msb$ fakebill.php?name=msb [L]
+RewriteRule ^fake-cccd$ /fake-cccd.php [L]
+RewriteRule ^psd$ /psd.php [L]
+RewriteRule ^create-qr-cccd$ create-qr-cccd.php [L]
+RewriteRule ^fake-passport$ fake-passport.php [L]
+
+RewriteRule ^fake-bien-dong-vietcombank$ fake-bien-dong-so-du.php?name=vietcombank [L]
+RewriteRule ^fake-bien-dong-mbbank$ fake-bien-dong-so-du.php?name=mbbank [L]
+RewriteRule ^fake-bien-dong-acb$ fake-bien-dong-so-du.php?name=acb [L]
+
+RewriteRule ^fake-so-du-mbbank$ fake-so-du-tk.php?name=mbbank [L]
+RewriteRule ^fake-so-du-vietcombank$ fake-so-du-tk.php?name=vietcombank [L]
+RewriteRule ^fake-so-du-bidv$ fake-so-du-tk.php?name=bidv [L]
+RewriteRule ^fake-so-du-vietinbank$ fake-so-du-tk.php?name=vietinbank [L]
+
+RewriteRule ^payment$ payment.php [L]
+RewriteRule ^transfer$ transfer.php [L]
+RewriteRule ^card-topup$ card-topup.php [L]
+RewriteRule ^plans$ plan.php [L]
+RewriteRule ^api$ api.php [L]
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php7_module>
+   php_flag display_errors Off
+   php_value max_execution_time 3600
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 2G
+   php_value post_max_size 320M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php74"
+   php_value upload_max_filesize 320M
+   php_flag zlib.output_compression On
+</IfModule>
+<IfModule lsapi_module>
+   php_flag display_errors Off
+   php_value max_execution_time 3600
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 2G
+   php_value post_max_size 320M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php74"
+   php_value upload_max_filesize 320M
+   php_flag zlib.output_compression On
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+ErrorDocument 404 /404.html
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php80” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php80 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
